@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  color: #191645;
+}
+
+header {
+  padding: 15px;
+  width: 800px; /* centers the content and gives it negative space on either side */
+  margin: auto;
+}
+
+h1 {
+  margin-left: 20px; /* Adds a little space between the logo and the heading */
+}
+
+/* start navigation */
+
+nav {
+  background-color: #f3f3f4;
+}
+
+nav .wrapper {  /* centers the content and gives it negative space on either side */
+  width: 800px; 
+  margin: auto;
+  padding: 0 15px;
+}
+
+nav ul {
+  list-style-type: none; /* removes the list bullets */
+  margin: 0;
+  padding: 0;
+}
+
+
+nav li a {
+  padding: 15px;
+  text-decoration: none;
+  color: #191645;
+  display: inline-block; /* an anchor is an inline element so it has no box model vertical measurements, this makes the anchor behave like a block element that sits inline like an inline element */
+}
+
+nav li a:hover {
+  background-color: #43C6Ac;
+  color: white;
+}
+
+/* end navigation */
+
+main {   /* centers the content and gives it negative space on either side */
+  padding: 15px;
+  width: 800px;
+  margin: auto;
+}
+
+figure {
+  margin: 0; /* resets the default figure margin, applies to both the image in the article and the aside */
+}
+
+figcaption {
+  color: grey;
+}
+
+article {
+  margin-right: 30px; /* adds a little space between the article and the aside */
+}
+
+article img {
+  width: 100%;  /* makes the image the full-width of its parent element */
+}
+
+aside {
+  border: 1px solid #43C6Ac;
+  padding: 15px;
+}
+
+footer {
+  background-color: #191645;
+  color: white;
+}
+
+footer .wrapper {   /* centers the content and gives it negative space on either side */
+  width: 800px;
+  margin: auto;
+  padding: 15px;
+}
