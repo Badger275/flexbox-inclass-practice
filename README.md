@@ -1,6 +1,6 @@
 # Flexbox Exercise
 
-Edit plants.html and style.css to recreate the layout in the image below using flexbox. You are not allowed to use floats. 
+Edit plants.html and style.css to recreate the layout in the image below using flexbox. You are not allowed to use floats. Refer to https://flexbox.malven.co/ to help you figure out with properties to use.
 
 You will need to use flexbox to:
 
