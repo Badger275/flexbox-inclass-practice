@@ -1,62 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Flexbox Example</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- Notice the icon in the browser tab, it's called a favicon. The image must always be named favicon.ico for it to work. -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <title>Flexbox Example</title>
-  <meta charset="utf-8">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <!-- Notice the icon in the browser tab, it's called a favicon. The image must always be named favicon.ico for it to work. -->
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <header>
-    <a href="index.html"><img src="images/digital-logo.png" alt="Digital Design + Development" width="100"></a>
-    <h1>Flexbox Example</h1>
-  </header>
-  <nav>
-    <div class="wrapper">
-      <!-- wraps the content so that the background colour can spread from edge to edge of the browser window -->
-      <ul>
-        <!-- using a list for navigation items is the correct semantic way to format the links -->
-        <li><a href="plants.html">Plants</a></li> <!-- these links don't work, that's ok -->
-        <li><a href="animals.html">Animals</a></li> 
-        <li><a href="fungi.html">Fungi</a></li>
-        <li><a href="protista.html">Protista</a></li>     
-        <li><a href="monera.html">Monera</a></li>    
-      </ul>
-    </div>
-  </nav>
-
-  <main>
-    <article>
-      <h2>Plants</h2>
-      <figure>
-        <img src="images/moss.jpg" alt="Moss" width="400">
-        <figcaption><i> Bryophytes, commonly known as mosses </i></figcaption>
-      </figure>
-      <p>Plants are mainly multicellular organisms, predominantly photosynthetic eukaryotes of the kingdom Plantae.  Historically, plants were treated as one of two kingdoms including all living things that were not animals, and all algae and fungi were treated as plants. However, all current definitions of Plantae exclude the fungi and some algae, as well as the prokaryotes (the archaea and bacteria). By one definition, plants form the clade Viridiplantae (Latin name for "green plants"), a group that includes the flowering plants, conifers and other gymnosperms, ferns and their allies, hornworts, liverworts, mosses, and the green algae, but excludes the red and brown algae.</p>
-    </article>
-    <aside>
-        <figure>
-          <img src="images/major-plant-groups.png" alt="Major Plant Groups" width="200">
-        </figure>
-        <h3>Major plant groups</h3>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img
+          src="images/digital-logo.png"
+          alt="Digital Design + Development"
+          width="100"
+      /></a>
+      <h1>Flexbox Example</h1>
+    </header>
+    <nav>
+      <div class="wrapper">
+        <!-- wraps the content so that the background colour can spread from edge to edge of the browser window -->
         <ul>
-          <li>Bryophytes (mosses)</li>
-          <li>Pteridophytes (ferns)</li>
-          <li>Gymnosperms (conifers)</li>
-          <li>Angiosperms (flowering, seed-bearing plants)</li>
+          <!-- using a list for navigation items is the correct semantic way to format the links -->
+          <li><a href="plants.html">Plants</a></li>
+          <!-- these links don't work, that's ok -->
+          <li><a href="animals.html">Animals</a></li>
+          <li><a href="fungi.html">Fungi</a></li>
+          <li><a href="protista.html">Protista</a></li>
+          <li><a href="monera.html">Monera</a></li>
         </ul>
-      <p><i>Note: Algae and fungi are not classified as plants.</i></p>
-    </aside>
-  </main>
-  <footer>
-    <div class="wrapper">
-      <!-- wraps the content so that the background colour can spread from edge to edge of the browser window -->
-      DIGITAL Design + Development at NIC: DGL103 HTML/CSS
-    </div>
-  </footer>
-</body>
+      </div>
+    </nav>
 
+    <main>
+      <article>
+        <h2>Plants</h2>
+        <figure>
+          <img src="images/moss.jpg" alt="Moss" width="400" />
+          <figcaption><i> Bryophytes, commonly known as mosses </i></figcaption>
+        </figure>
+        <p>
+          Plants are mainly multicellular organisms, predominantly
+          photosynthetic eukaryotes of the kingdom Plantae. Historically, plants
+          were treated as one of two kingdoms including all living things that
+          were not animals, and all algae and fungi were treated as plants.
+          However, all current definitions of Plantae exclude the fungi and some
+          algae, as well as the prokaryotes (the archaea and bacteria). By one
+          definition, plants form the clade Viridiplantae (Latin name for "green
+          plants"), a group that includes the flowering plants, conifers and
+          other gymnosperms, ferns and their allies, hornworts, liverworts,
+          mosses, and the green algae, but excludes the red and brown algae.
+        </p>
+      </article>
+      <aside>
+        <div>
+          <figure>
+            <img
+              src="images/major-plant-groups.png"
+              alt="Major Plant Groups"
+              width="200"
+            />
+          </figure>
+          <h3>Major plant groups</h3>
+          <ul>
+            <li>Bryophytes (mosses)</li>
+            <li>Pteridophytes (ferns)</li>
+            <li>Gymnosperms (conifers)</li>
+            <li>Angiosperms (flowering, seed-bearing plants)</li>
+          </ul>
+        </div>
+        <p><i>Note: Algae and fungi are not classified as plants.</i></p>
+      </aside>
+    </main>
+    <footer>
+      <div class="wrapper">
+        <!-- wraps the content so that the background colour can spread from edge to edge of the browser window -->
+        DIGITAL Design + Development at NIC: DGL103 HTML/CSS
+      </div>
+    </footer>
+  </body>
 </html>
